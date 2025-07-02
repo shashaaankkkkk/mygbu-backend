@@ -1,5 +1,4 @@
 from django.db import models
-from django.contrib.postgres.fields import JSONField  # if using PostgreSQL
 
 class User(models.Model):
     user_id = models.AutoField(primary_key=True)
